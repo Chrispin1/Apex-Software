@@ -10,7 +10,11 @@ export default {
         blueApex: '#CBCEDA',
         orangeApex: '#efd5da',
         orange: "#D22B35",
-        blue:'#2A365C'
+        blue: '#2A365C',
+        smallBlue: '#BFDBFE',
+        smallPink: '#FECACA',
+        smallYellow: '#FDE68A',
+        smallGreen:'#FDE68A'
       },
     },
   },

@@ -1,4 +1,5 @@
 import logo from "../assets/logo.png";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   return (
@@ -29,10 +30,11 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="flex items-center justify-end">
-          <button className="border-2 rounded-md p-2 flex items-center justify-end">
-            Get Quote
-          </button>
+        <div className="flex items-center justify-end ml-[10px] ">
+          <button className="border-2 rounded-md p-2">Get Quote</button>
+          <div className="md:hidden ml-[180px] md:ml-[30px]" size={30}>
+            <GiHamburgerMenu />
+          </div>
         </div>
       </div>
     </div>
