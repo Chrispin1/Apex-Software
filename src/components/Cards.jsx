@@ -18,7 +18,7 @@ const Cards = () => {
             <img src={innovation} className="h-[40px] w-[40px]" />
           </div>
           <h3 className="pt-4 text-blue">Innovative Solutions</h3>
-          <p className=" font-light mt-2">
+          <p className=" font-light mt-2 text-gray-600 text-sm">
             At Apex Living Software Labs, we pride ourselves on our innovative
             approach to problem solving. Our team of experts is dedicated to
             finding unique solutions tailored to your specific needs, ensuring
@@ -30,7 +30,7 @@ const Cards = () => {
             <img src={experience} className="h-[40px] w-[40px]" />
           </div>
           <h3 className="pt-2 text-blue">Industry Experience</h3>
-          <p className=" font-light mt-2">
+          <p className=" font-light mt-2 text-gray-600 text-sm">
             With years of experience in the software development industry, we
             have a deep understanding of the challenges businesses face. Our
             team leverages this experience to deliver solutions that are not
@@ -43,7 +43,7 @@ const Cards = () => {
             <img src={technology} className="h-[40px] w-[40px]" />
           </div>
           <h3 className="pt-2 text-blue">Cutting-Edge Technology</h3>
-          <p className=" font-light mt-2">
+          <p className=" font-light mt-2 text-gray-600 text-sm">
             We stay at the forefront of technology trends, constantly exploring
             new tools and techniques to deliver the best possible solutions for
             our clients. By choosing Apex Living Software Labs, you can be
@@ -56,7 +56,7 @@ const Cards = () => {
             <img src={client} className="h-[40px] w-[40px]" />
           </div>
           <h3 className="pt-4 text-blue">Client-Centric Approach</h3>
-          <p className=" font-light mt-2 ">
+          <p className=" font-light mt-2 text-gray-600 text-sm">
             At Apex Living Software Labs, our clients are our top priority. We
             work closely with you to understand your unique challenges and
             goals, ensuring that the solutions we provide are tailored to meet

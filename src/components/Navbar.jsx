@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   return (
-    <div className="bg-gradient-to-r from-blueApex to-orangeApex w-full z-50 fixed items-center p-2 flex justify-between">
+    <div className="bg-gradient-to-r from-blueApex to-orangeApex w-full z-50 fixed items-center  flex justify-between">
       <div className="flex">
         <div>
           <img
@@ -31,10 +31,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex items-center justify-end ml-[10px] ">
-          <button className=" hidden lg:block  border-2 rounded-md p-2">
+          <button className=" hidden lg:block rounded-md p-2 border border-t-[#2A365C] border-l-[#2A365C] border-b-[#E32A31] border-r-[#E32A31] flex-end items-center">
             Get Quote
           </button>
-          <div className="lg:hidden ml-[180px] md:ml-[100px]" size={30}>
+          <div className="lg:hidden ml-[180px] md:pr-[0] " size={30}>
             <GiHamburgerMenu />
           </div>
         </div>
