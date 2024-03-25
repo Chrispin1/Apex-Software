@@ -6,6 +6,10 @@ import fastroute from "../assets/fastroute.webp";
 import furniture from "../assets/furniture.webp";
 import gadget from "../assets/gadget.webp";
 import turide from "../assets/turide.webp";
+import uzuri from "../assets/uzuri.webp";
+import wavegrid from "../assets/wavegrid.webp";
+import driver from "../assets/driver.webp";
+import herot from "../assets/herot.webp";
 
 const Portfolio = () => {
   return (
@@ -33,18 +37,27 @@ const Portfolio = () => {
           <img src={apex} alt="apex" className="object-cover w-full h-full" />
           <img src={dash} alt="apex" className="object-cover w-full h-full" />
           <img src={digi} alt="apex" className="object-cover w-full h-full" />
-          <img src={gadget} alt="apex" className="object-cover w-full h-full" />
-          <img
-            src={furniture}
-            alt="apex"
-            className="object-cover w-full h-full"
-          />
+
           <img
             src={fastroute}
             alt="apex"
             className="object-cover w-full h-full"
           />
+          <img
+            src={furniture}
+            alt="apex"
+            className="object-cover w-full h-full"
+          />
+          <img src={gadget} alt="apex" className="object-cover w-full h-full" />
           <img src={turide} alt="apex" className="object-cover w-full h-full" />
+          <img src={uzuri} alt="apex" className="object-cover w-full h-full" />
+          <img
+            src={wavegrid}
+            alt="apex"
+            className="object-cover w-full h-full"
+          />
+          <img src={driver} alt="apex" className="object-cover w-full h-full" />
+          <img src={herot} alt="apex" className="object-cover w-full h-full" />
         </div>
       </div>
     </div>

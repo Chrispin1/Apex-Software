@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   return (
-    <div className="bg-gradient-to-r from-blueApex to-orangeApex w-full z-50 fixed items-center  flex justify-between">
+    <div className=" lg:p-2 bg-gradient-to-r from-blueApex to-orangeApex w-full z-50 fixed items-center  flex justify-between">
       <div className="flex">
         <div>
           <img
