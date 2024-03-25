@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className=" max-h-[2600px] md:max-h-[580px] lg:max-h-[600px] bg-gradient-to-r from-blueApex to-orangeApex">
+      <main className=" max-h-[580px] lg:max-h-[600px] bg-gradient-to-r from-blueApex to-orangeApex">
         <Hero />
         <Cards />
       </main>

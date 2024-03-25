@@ -12,8 +12,8 @@ const Cards = () => {
         </h2>
       </div>
       {/* cards */}
-      <div className="grid grid-cols-2 md:flex gap-4 mt-6 mx-6 text-sm mb-6">
-        <div className="w-1/4 shadow-lg shadow-gray-300  rounded-2xl p-4">
+      <div className="grid md:grid-cols-2 lg:flex gap-4 mt-6 mx-6 text-sm mb-6">
+        <div className="lg:w-1/4 shadow-lg shadow-gray-300  rounded-2xl p-4">
           <div className=" bg-smallPink h-[75px] w-[75px] rounded-lg flex flex-row items-center justify-center">
             <img src={innovation} className="h-[40px] w-[40px]" />
           </div>
@@ -25,7 +25,7 @@ const Cards = () => {
             that your business stands out in a crowded market.
           </p>
         </div>
-        <div className="w-1/4 shadow-lg shadow-gray-300   rounded-2xl p-4">
+        <div className="lg:w-1/4 shadow-lg shadow-gray-300   rounded-2xl p-4">
           <div className=" bg-smallGreen h-[75px] w-[75px] rounded-lg flex flex-row items-center justify-center">
             <img src={experience} className="h-[40px] w-[40px]" />
           </div>
@@ -38,7 +38,7 @@ const Cards = () => {
             business grow and succeed.
           </p>
         </div>
-        <div className="w-1/4 shadow-lg shadow-gray-300  rounded-2xl p-4">
+        <div className="lg:w-1/4 shadow-lg shadow-gray-300  rounded-2xl p-4">
           <div className=" bg-smallBlue h-[75px] w-[75px] rounded-lg flex flex-row items-center justify-center">
             <img src={technology} className="h-[40px] w-[40px]" />
           </div>
@@ -51,7 +51,7 @@ const Cards = () => {
             advanced technology available.
           </p>
         </div>
-        <div className="w-1/4 shadow-lg shadow-gray-300  rounded-2xl p-4">
+        <div className="lg:w-1/4 shadow-lg shadow-gray-300  rounded-2xl p-4">
           <div className=" bg-smallPink h-[75px] w-[75px] rounded-lg flex flex-row items-center justify-center">
             <img src={client} className="h-[40px] w-[40px]" />
           </div>
