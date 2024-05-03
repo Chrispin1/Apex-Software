@@ -1,4 +1,5 @@
 import Cards from "./components/Cards";
+import Form from "./components/Form";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
@@ -13,6 +14,7 @@ function App() {
         <Cards />
         <Portfolio />
         <Services />
+        <Form />
       </main>
     </>
   );
